@@ -25,7 +25,7 @@ information or see https://opensource.org/licenses/MIT.
 About Bottlecaps
 ----------------
 
-CAPS doesn't promise to revolutionize the world. It promises to make crypto fun again.
+CAPS doesn't promise to revolutionize the world. It promises to make crypto fun again!
 
 With no utility distraxtions, asset layers, or complex tokenomics - Bottlecaps is a meme
 coin built for mining, hoarding, and having a laugh in a world gone digital.
