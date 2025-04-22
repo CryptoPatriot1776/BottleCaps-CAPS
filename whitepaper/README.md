@@ -24,4 +24,4 @@ BottleCaps (CAPS) is a decentralized, GPU-mineable cryptocurrency inspired by th
 
 CAPS is not a startup. There’s no VC funding, no roadmap full of empty promises. It’s a meme, a mineable coin, and a celebration of digital freedom. If you want a coin to believe in, CAPS is probably not it. But if you want a coin to mine, hold, and meme with your friends — welcome to the Wasteland.
 
-📄 Full whitepaper (PDF) coming soon at [https://bottlecaps.id/whitepaper](https://bottlecaps.id/whitepaper)
+📄 Full whitepaper (PDF) at [https://bottlecaps.io/whitepaper](https://bottlecaps.id/whitepaper)

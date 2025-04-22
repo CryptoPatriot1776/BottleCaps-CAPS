@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (c) 2016 The Bitcoin Core developers
-# Copyright (c) 2017-2020 The Raven Core developers
+# Copyright (c) 2017-2020 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +13,7 @@ Test processing of feefilter messages.
 
 import time
 from test_framework.mininode import mininode_lock, NodeConnCB, NodeConn, NetworkThread, MsgFeeFilter
-from test_framework.test_framework import RavenTestFramework
+from test_framework.test_framework import CapsTestFramework
 from test_framework.util import sync_blocks, p2p_port, Decimal, sync_mempools
 
 def hash_to_hex(hash_data):
@@ -41,7 +42,7 @@ class TestNode(NodeConnCB):
         with mininode_lock:
             self.txinvs = []
 
-class FeeFilterTest(RavenTestFramework):
+class FeeFilterTest(CapsTestFramework):
     def set_test_params(self):
         self.num_nodes = 2
 

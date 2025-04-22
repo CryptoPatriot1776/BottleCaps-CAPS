@@ -1,13 +1,14 @@
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2017-2019 The Raven Core developers
+// Copyright (c) 2017-2019 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef RAVEN_NETADDRESS_H
-#define RAVEN_NETADDRESS_H
+#ifndef CAPS_NETADDRESS_H
+#define CAPS_NETADDRESS_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/raven-config.h"
+#include "config/caps-config.h"
 #endif
 
 #include "compat.h"
@@ -175,4 +176,4 @@ class CService : public CNetAddr
         }
 };
 
-#endif // RAVEN_NETADDRESS_H
+#endif // CAPS_NETADDRESS_H

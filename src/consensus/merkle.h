@@ -1,10 +1,11 @@
 // Copyright (c) 2015 The Bitcoin Core developers
-// Copyright (c) 2017-2019 The Raven Core developers
+// Copyright (c) 2017-2019 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef RAVEN_MERKLE
-#define RAVEN_MERKLE
+#ifndef CAPS_MERKLE
+#define CAPS_MERKLE
 
 #include <stdint.h>
 #include <vector>

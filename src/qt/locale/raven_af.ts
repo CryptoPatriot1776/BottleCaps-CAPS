@@ -62,12 +62,12 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Raven addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Raven betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Caps addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Caps betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Raven addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Ravens sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your Caps addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u Capss sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Bevestig dat die beursie gekodifiseer is</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RAVENS&lt;/b&gt;!</source>
-        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U RAVENS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CAPSS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U CAPSS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -621,7 +621,7 @@
     </message>
     </context>
 <context>
-    <name>RavenGUI</name>
+    <name>CapsGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Teken &amp;boodskap...</translation>
@@ -723,8 +723,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Raven address</source>
-        <translation>Stuur munte na 'n Raven adres</translation>
+        <source>Send coins to a Caps address</source>
+        <translation>Stuur munte na 'n Caps adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -739,8 +739,8 @@
         <translation>Maak ontfouting en diagnostiese konsole oop</translation>
     </message>
     <message>
-        <source>Raven</source>
-        <translation>Raven</translation>
+        <source>Caps</source>
+        <translation>Caps</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -767,12 +767,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Raven addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Raven adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Caps addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Caps adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Raven addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Raven adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Caps addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Caps adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -783,8 +783,8 @@
         <translation>&amp;Help</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and raven: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en raven: URI's)</translation>
+        <source>Request payments (generates QR codes and caps: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en caps: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -795,8 +795,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a raven: URI or payment request</source>
-        <translation>Skep 'n raven: URI of betalingsversoek</translation>
+        <source>Open a caps: URI or payment request</source>
+        <translation>Skep 'n caps: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -1031,10 +1031,10 @@
     </message>
     </context>
 <context>
-    <name>raven-core</name>
+    <name>caps-core</name>
     <message>
-        <source>Raven Core</source>
-        <translation>Raven Kern</translation>
+        <source>Ravencoin Core</source>
+        <translation>Caps Kern</translation>
     </message>
     <message>
         <source>Information</source>

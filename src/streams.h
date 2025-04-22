@@ -1,11 +1,12 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2017-2019 The Raven Core developers
+// Copyright (c) 2017-2019 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef RAVEN_STREAMS_H
-#define RAVEN_STREAMS_H
+#ifndef CAPS_STREAMS_H
+#define CAPS_STREAMS_H
 
 #include "support/allocators/zeroafterfree.h"
 #include "serialize.h"
@@ -707,4 +708,4 @@ public:
     }
 };
 
-#endif // RAVEN_STREAMS_H
+#endif // CAPS_STREAMS_H

@@ -1,15 +1,15 @@
 [Unit]
-Description=Raven's distributed currency daemon
+Description=Caps's distributed currency daemon
 After=network.target
 
 [Service]
-User=raven
-Group=raven
+User=caps
+Group=caps
 
 Type=forking
-PIDFile=/var/lib/ravend/ravend.pid
-ExecStart=/usr/bin/ravend -daemon -pid=/var/lib/ravend/ravend.pid \
--conf=/etc/raven/raven.conf -datadir=/var/lib/ravend -disablewallet
+PIDFile=/var/lib/capsd/capsd.pid
+ExecStart=/usr/bin/capsd -daemon -pid=/var/lib/capsd/capsd.pid \
+-conf=/etc/caps/caps.conf -datadir=/var/lib/capsd -disablewallet
 
 Restart=always
 PrivateTmp=true

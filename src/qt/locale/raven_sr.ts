@@ -62,11 +62,11 @@
         <translation>Adresa za primanje</translation>
     </message>
     <message>
-        <source>These are your Raven addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Caps addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ovo su vase Ravencoin adrese za slanje. Uvek proverite iznos i adresu primaoca pre slanja novcica.</translation>
     </message>
     <message>
-        <source>These are your Raven addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Caps addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ovo su vase Ravencoin adrese za prijem.  Preporucljivo je da za svaki prijem novcica kreirate novu adresu za prijem.</translation>
     </message>
     <message>
@@ -160,7 +160,7 @@
         <translation>Potvrdite enkripciju novčanika</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RAVENS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CAPSS&lt;/b&gt;!</source>
         <translation>Pažnja: Ukoliko enkriptujete novčanik a zatim izgubite vašu lozinku, izgubićete&lt;b&gt;SVA VAŠA SREDSTVA&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -172,7 +172,7 @@
         <translation>Novčanik enkriptovan</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ravens from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capss from being stolen by malware infecting your computer.</source>
         <translation>%1 će se zatvoriti kako bi se završio proces enkripcije.
 Zapamtite da enkripcija vašeg novčanika ne može u potpunosti zaštititi vaša sredstva od krađe ukoliko je vaš računar kompromitovan računarskim virusom ili drugim oblicima malicioznog softvera.</translation>
     </message>
@@ -450,7 +450,7 @@ Zapamtite da enkripcija vašeg novčanika ne može u potpunosti zaštititi vaša
     </message>
     </context>
 <context>
-    <name>RavenGUI</name>
+    <name>CapsGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Синхронизација са мрежом у току...</translation>
@@ -504,8 +504,8 @@ Zapamtite da enkripcija vašeg novčanika ne može u potpunosti zaštititi vaša
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Raven address</source>
-        <translation>Пошаљите новац на raven адресу</translation>
+        <source>Send coins to a Caps address</source>
+        <translation>Пошаљите новац на caps адресу</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -696,7 +696,7 @@ Zapamtite da enkripcija vašeg novčanika ne može u potpunosti zaštititi vaša
     <name>WalletView</name>
     </context>
 <context>
-    <name>raven-core</name>
+    <name>caps-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcije</translation>

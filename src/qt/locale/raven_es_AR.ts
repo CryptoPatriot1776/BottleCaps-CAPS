@@ -149,7 +149,7 @@
     <name>RPCConsole</name>
     </context>
 <context>
-    <name>RavenGUI</name>
+    <name>CapsGUI</name>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -215,6 +215,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>raven-core</name>
+    <name>caps-core</name>
     </context>
 </TS>

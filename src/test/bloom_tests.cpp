@@ -1,5 +1,6 @@
 // Copyright (c) 2012-2016 The Bitcoin Core developers
-// Copyright (c) 2017-2019 The Raven Core developers
+// Copyright (c) 2017-2019 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,7 +17,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "test/test_raven.h"
+#include "test/test_caps.h"
 
 #include <vector>
 
@@ -92,7 +93,7 @@ BOOST_FIXTURE_TEST_SUITE(bloom_tests, BasicTestingSetup)
         BOOST_TEST_MESSAGE("Running Bloom Create Insert Key Test");
 
         std::string strSecret = std::string("5Kg1gnAjaLfKiwhhPpGS3QfRg2m6awQvaj98JCZBZQ5SuS2F15C");
-        CRavenSecret vchSecret;
+        CCapsSecret vchSecret;
         BOOST_CHECK(vchSecret.SetString(strSecret));
 
         CKey key = vchSecret.GetKey();
@@ -517,7 +518,7 @@ BOOST_FIXTURE_TEST_SUITE(bloom_tests, BasicTestingSetup)
                 ++nHits;
         }
 
-        // Run test_raven with --log_level=message to see BOOST_TEST_MESSAGEs:
+        // Run test_caps with --log_level=message to see BOOST_TEST_MESSAGEs:
         BOOST_TEST_MESSAGE("RollingBloomFilter got " << nHits << " false positives (~100 expected)");
 
         // Insanely unlikely to get a fp count outside this range:

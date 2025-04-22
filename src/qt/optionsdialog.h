@@ -1,10 +1,11 @@
 // Copyright (c) 2011-2016 The Bitcoin Core developers
-// Copyright (c) 2017-2021 The Raven Core developers
+// Copyright (c) 2017-2021 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef RAVEN_QT_OPTIONSDIALOG_H
-#define RAVEN_QT_OPTIONSDIALOG_H
+#ifndef CAPS_QT_OPTIONSDIALOG_H
+#define CAPS_QT_OPTIONSDIALOG_H
 
 #include "currencyunits.h"
 
@@ -52,7 +53,7 @@ private Q_SLOTS:
     void on_resetButton_clicked();
     void on_ipfsUrlReset_clicked();
     void on_thirdPartyTxUrlsReset_clicked();
-    void on_openRavenConfButton_clicked();
+    void on_openCapsConfButton_clicked();
     void on_okButton_clicked();
     void on_cancelButton_clicked();
     
@@ -73,4 +74,4 @@ private:
     QDataWidgetMapper *mapper;
 };
 
-#endif // RAVEN_QT_OPTIONSDIALOG_H
+#endif // CAPS_QT_OPTIONSDIALOG_H

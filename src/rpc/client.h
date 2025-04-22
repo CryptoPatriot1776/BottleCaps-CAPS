@@ -1,11 +1,12 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2017-2019 The Raven Core developers
+// Copyright (c) 2017-2019 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef RAVEN_RPCCLIENT_H
-#define RAVEN_RPCCLIENT_H
+#ifndef CAPS_RPCCLIENT_H
+#define CAPS_RPCCLIENT_H
 
 #include <univalue.h>
 
@@ -20,4 +21,4 @@ UniValue RPCConvertNamedValues(const std::string& strMethod, const std::vector<s
  */
 UniValue ParseNonRFCJSONValue(const std::string& strVal);
 
-#endif // RAVEN_RPCCLIENT_H
+#endif // CAPS_RPCCLIENT_H

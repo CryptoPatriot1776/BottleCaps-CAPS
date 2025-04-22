@@ -1,10 +1,11 @@
-// Copyright (c) 2018-2020 The Raven Core developers
+// Copyright (c) 2018-2020 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 
-#ifndef RAVENCOIN_MESSAGES_H
-#define RAVENCOIN_MESSAGES_H
+#ifndef CAPSCOIN_MESSAGES_H
+#define CAPSCOIN_MESSAGES_H
 
 #include <uint256.h>
 #include <serialize.h>
@@ -140,4 +141,4 @@ public:
     std::string createJsonString();
 };
 
-#endif //RAVENCOIN_MESSAGES_H
+#endif //CAPSCOIN_MESSAGES_H

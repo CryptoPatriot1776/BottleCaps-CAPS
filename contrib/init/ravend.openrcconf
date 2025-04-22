@@ -1,33 +1,33 @@
-# /etc/conf.d/ravend: config file for /etc/init.d/ravend
+# /etc/conf.d/capsd: config file for /etc/init.d/capsd
 
 # Config file location
-#RAVEND_CONFIGFILE="/etc/raven/raven.conf"
+#CAPSD_CONFIGFILE="/etc/caps/caps.conf"
 
-# What directory to write pidfile to?  (created and owned by $RAVEND_USER)
-#RAVEND_PIDDIR="/var/run/ravend"
+# What directory to write pidfile to?  (created and owned by $CAPSD_USER)
+#CAPSD_PIDDIR="/var/run/capsd"
 
 # What filename to give the pidfile
-#RAVEND_PIDFILE="${RAVEND_PIDDIR}/ravend.pid"
+#CAPSD_PIDFILE="${CAPSD_PIDDIR}/capsd.pid"
 
-# Where to write ravend data (be mindful that the blockchain is large)
-#RAVEND_DATADIR="/var/lib/ravend"
+# Where to write capsd data (be mindful that the blockchain is large)
+#CAPSD_DATADIR="/var/lib/capsd"
 
-# User and group to own ravend process
-#RAVEND_USER="raven"
-#RAVEND_GROUP="raven"
+# User and group to own capsd process
+#CAPSD_USER="caps"
+#CAPSD_GROUP="caps"
 
-# Path to ravend executable
-#RAVEND_BIN="/usr/bin/ravend"
+# Path to capsd executable
+#CAPSD_BIN="/usr/bin/capsd"
 
-# Nice value to run ravend under
-#RAVEND_NICE=0
+# Nice value to run capsd under
+#CAPSD_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
-#RAVEND_OPTS=""
+#CAPSD_OPTS=""
 
-# The timeout in seconds OpenRC will wait for ravend to terminate
+# The timeout in seconds OpenRC will wait for capsd to terminate
 # after a SIGTERM has been raised.
 # Note that this will be mapped as argument to start-stop-daemon's
 # '--retry' option, which means you can specify a retry schedule
 # here. For more information see man 8 start-stop-daemon.
-RAVEND_SIGTERM_TIMEOUT=60
+CAPSD_SIGTERM_TIMEOUT=60

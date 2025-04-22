@@ -245,7 +245,7 @@
     </message>
     </context>
 <context>
-    <name>RavenGUI</name>
+    <name>CapsGUI</name>
     <message>
         <source>&amp;Send</source>
         <translation>&amp;ناردن</translation>
@@ -407,7 +407,7 @@
     </message>
     </context>
 <context>
-    <name>raven-core</name>
+    <name>caps-core</name>
     <message>
         <source>Options:</source>
         <translation>هەڵبژاردنەکان:</translation>

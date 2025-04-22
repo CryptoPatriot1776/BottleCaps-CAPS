@@ -307,8 +307,8 @@
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically open the Raven client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Raven en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Caps client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Caps en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -402,8 +402,8 @@
         <translation>Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raven network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Raven después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Caps network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Caps después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -549,7 +549,7 @@
     </message>
     </context>
 <context>
-    <name>RavenGUI</name>
+    <name>CapsGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje...</translation>
@@ -627,8 +627,8 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Raven address</source>
-        <translation>Enviar monedas a una dirección Raven</translation>
+        <source>Send coins to a Caps address</source>
+        <translation>Enviar monedas a una dirección Caps</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -647,8 +647,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Raven</source>
-        <translation>Raven</translation>
+        <source>Caps</source>
+        <translation>Caps</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -675,12 +675,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Raven addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Raven para demostrar la propiedad</translation>
+        <source>Sign messages with your Caps addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Caps para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Raven addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Raven concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Caps addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Caps concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -691,8 +691,8 @@
         <translation>A&amp;yuda</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and raven: URIs)</source>
-        <translation>Solicitar pagos (genera codigo QR y URL's de Raven)</translation>
+        <source>Request payments (generates QR codes and caps: URIs)</source>
+        <translation>Solicitar pagos (genera codigo QR y URL's de Caps)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -703,8 +703,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a raven: URI or payment request</source>
-        <translation>Abrir un raven: URI o petición de pago</translation>
+        <source>Open a caps: URI or payment request</source>
+        <translation>Abrir un caps: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1020,8 +1020,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Raven address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Raven</translation>
+        <source>Sign the message to prove you own this Caps address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Caps</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1040,8 +1040,8 @@
         <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Raven address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Raven indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Caps address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Caps indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1095,7 +1095,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>raven-core</name>
+    <name>caps-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:
@@ -1124,8 +1124,8 @@
 </translation>
     </message>
     <message>
-        <source>Raven Core</source>
-        <translation>Núcleo de Raven</translation>
+        <source>Ravencoin Core</source>
+        <translation>Núcleo de Caps</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

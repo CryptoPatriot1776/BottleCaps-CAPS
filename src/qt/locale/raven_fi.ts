@@ -62,12 +62,12 @@
         <translation>Vastaanotto-osoitteet</translation>
     </message>
     <message>
-        <source>These are your Raven addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat Raven-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Caps addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat Caps-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Raven addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tässä ovat Raven vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
+        <source>These are your Caps addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tässä ovat Caps vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Vahvista lompakon salaaminen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RAVENS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI RAVENISI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CAPSS&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI CAPSISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,7 +180,7 @@
         <translation>Lompakko salattiin</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ravens from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capss from being stolen by malware infecting your computer.</source>
         <translation>%1 sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
@@ -428,8 +428,8 @@
         <translation>Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Raven address.</source>
-        <translation>Antamasi osoite "%1" ei ole kelvollinen Raven-osoite.</translation>
+        <source>The entered address "%1" is not a valid Caps address.</source>
+        <translation>Antamasi osoite "%1" ei ole kelvollinen Caps-osoite.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -711,16 +711,16 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Raven client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Raven-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Caps client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Caps-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Connect to the Raven network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Raven-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the Caps network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Caps-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -755,8 +755,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Raven network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä Raven-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <source>Connect to the Caps network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Yhdistä Caps-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -788,11 +788,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona raven-määrät näytetään</translation>
+        <translation>Yksikkö jona caps-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti raven-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti caps-määrien näyttämiseen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -842,8 +842,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raven network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Raven-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Caps network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Caps-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -879,7 +879,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Ravenien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Capsien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -931,8 +931,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Raven address (e.g. %1)</source>
-        <translation>Syötä Raven-osoite (esim. %1)</translation>
+        <source>Enter a Caps address (e.g. %1)</source>
+        <translation>Syötä Caps-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1253,7 +1253,7 @@
     </message>
 </context>
 <context>
-    <name>RavenGUI</name>
+    <name>CapsGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Allekirjoita viesti...</translation>
@@ -1359,8 +1359,8 @@
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a Raven address</source>
-        <translation>Lähetä kolikoita Raven-osoitteeseen</translation>
+        <source>Send coins to a Caps address</source>
+        <translation>Lähetä kolikoita Caps-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -1379,8 +1379,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Raven</source>
-        <translation>Raven</translation>
+        <source>Caps</source>
+        <translation>Caps</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1400,19 +1400,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Raven-ikkuna</translation>
+        <translation>Näytä tai piilota Caps-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Raven addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Raven -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Caps addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla Caps -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Raven addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Raven -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Caps addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Caps -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -1423,8 +1423,8 @@
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and raven: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja raven: URIt)</translation>
+        <source>Request payments (generates QR codes and caps: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja caps: URIt)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1435,8 +1435,8 @@
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a raven: URI or payment request</source>
-        <translation>Avaa raven: URI tai maksupyyntö</translation>
+        <source>Open a caps: URI or payment request</source>
+        <translation>Avaa caps: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1479,8 +1479,8 @@
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Raven command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Ravenin komentorivivalinnoista</translation>
+        <source>Show the %1 help message to get a list with possible Caps command-line options</source>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Capsin komentorivivalinnoista</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -1549,8 +1549,8 @@
         <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;lukittuna&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Raven can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. Raven ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. Caps can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. Caps ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -1576,8 +1576,8 @@
         <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raven network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Raven-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Caps network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Caps-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1711,7 +1711,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Raveneja</translation>
+        <translation>Lähetä Capseja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1889,8 +1889,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Raven address to send the payment to</source>
-        <translation>Raven-osoite johon maksu lähetetään</translation>
+        <source>The Caps address to send the payment to</source>
+        <translation>Caps-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1909,8 +1909,8 @@
         <translation>Poista tämä alkio</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less ravens than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän raveneja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less capss than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän capseja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1933,8 +1933,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the raven: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raven network.</source>
-        <translation>Viesti joka liitettiin raven: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Raven-verkkoon.</translation>
+        <source>A message that was attached to the caps: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Caps network.</source>
+        <translation>Viesti joka liitettiin caps: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Caps-verkkoon.</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -1970,8 +1970,8 @@
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>The Raven address to sign the message with</source>
-        <translation>Raven-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The Caps address to sign the message with</source>
+        <translation>Caps-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2002,8 +2002,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Raven address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Raven-osoitteen</translation>
+        <source>Sign the message to prove you own this Caps address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Caps-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2022,12 +2022,12 @@
         <translation>&amp;Varmista viesti</translation>
     </message>
     <message>
-        <source>The Raven address the message was signed with</source>
-        <translation>Raven-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The Caps address the message was signed with</source>
+        <translation>Caps-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Raven address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Raven-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Caps address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Caps-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2317,7 +2317,7 @@
     </message>
     </context>
 <context>
-    <name>raven-core</name>
+    <name>caps-core</name>
     <message>
         <source>Options:</source>
         <translation>Asetukset:</translation>
@@ -2375,8 +2375,8 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>Raven Core</source>
-        <translation>Raven-ydin</translation>
+        <source>Ravencoin Core</source>
+        <translation>Caps-ydin</translation>
     </message>
     <message>
         <source>The %s developers</source>

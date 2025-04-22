@@ -1,0 +1,6 @@
+usr/local/bin/caps-qt usr/bin
+share/pixmaps/caps32.xpm usr/share/pixmaps
+share/pixmaps/caps16.xpm usr/share/pixmaps
+share/pixmaps/caps128.png usr/share/pixmaps
+debian/caps-qt.desktop usr/share/applications
+debian/caps-qt.protocol usr/share/kde4/services/

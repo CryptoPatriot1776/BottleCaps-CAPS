@@ -2,41 +2,41 @@
 
 # backward compatibility for existing gentoo layout 
 #
-if [ -d "/var/lib/raven/.raven" ]; then
-	RAVEND_DEFAULT_DATADIR="/var/lib/raven/.raven"
+if [ -d "/var/lib/caps/.caps" ]; then
+	CAPSD_DEFAULT_DATADIR="/var/lib/caps/.caps"
 else
-	RAVEND_DEFAULT_DATADIR="/var/lib/ravend"
+	CAPSD_DEFAULT_DATADIR="/var/lib/capsd"
 fi
 
-RAVEND_CONFIGFILE=${RAVEND_CONFIGFILE:-/etc/raven/raven.conf}
-RAVEND_PIDDIR=${RAVEND_PIDDIR:-/var/run/ravend}
-RAVEND_PIDFILE=${RAVEND_PIDFILE:-${RAVEND_PIDDIR}/ravend.pid}
-RAVEND_DATADIR=${RAVEND_DATADIR:-${RAVEND_DEFAULT_DATADIR}}
-RAVEND_USER=${RAVEND_USER:-${RAVEN_USER:-raven}}
-RAVEND_GROUP=${RAVEND_GROUP:-raven}
-RAVEND_BIN=${RAVEND_BIN:-/usr/bin/ravend}
-RAVEND_NICE=${RAVEND_NICE:-${NICELEVEL:-0}}
-RAVEND_OPTS="${RAVEND_OPTS:-${RAVEN_OPTS}}"
+CAPSD_CONFIGFILE=${CAPSD_CONFIGFILE:-/etc/caps/caps.conf}
+CAPSD_PIDDIR=${CAPSD_PIDDIR:-/var/run/capsd}
+CAPSD_PIDFILE=${CAPSD_PIDFILE:-${CAPSD_PIDDIR}/capsd.pid}
+CAPSD_DATADIR=${CAPSD_DATADIR:-${CAPSD_DEFAULT_DATADIR}}
+CAPSD_USER=${CAPSD_USER:-${CAPS_USER:-caps}}
+CAPSD_GROUP=${CAPSD_GROUP:-caps}
+CAPSD_BIN=${CAPSD_BIN:-/usr/bin/capsd}
+CAPSD_NICE=${CAPSD_NICE:-${NICELEVEL:-0}}
+CAPSD_OPTS="${CAPSD_OPTS:-${CAPS_OPTS}}"
 
-name="Raven Core Daemon"
-description="Raven cryptocurrency P2P network daemon"
+name="Ravencoin Core Daemon"
+description="Caps cryptocurrency P2P network daemon"
 
-command="/usr/bin/ravend"
-command_args="-pid=\"${RAVEND_PIDFILE}\" \
-		-conf=\"${RAVEND_CONFIGFILE}\" \
-		-datadir=\"${RAVEND_DATADIR}\" \
+command="/usr/bin/capsd"
+command_args="-pid=\"${CAPSD_PIDFILE}\" \
+		-conf=\"${CAPSD_CONFIGFILE}\" \
+		-datadir=\"${CAPSD_DATADIR}\" \
 		-daemon \
-		${RAVEND_OPTS}"
+		${CAPSD_OPTS}"
 
-required_files="${RAVEND_CONFIGFILE}"
-start_stop_daemon_args="-u ${RAVEND_USER} \
-			-N ${RAVEND_NICE} -w 2000"
-pidfile="${RAVEND_PIDFILE}"
+required_files="${CAPSD_CONFIGFILE}"
+start_stop_daemon_args="-u ${CAPSD_USER} \
+			-N ${CAPSD_NICE} -w 2000"
+pidfile="${CAPSD_PIDFILE}"
 
 # The retry schedule to use when stopping the daemon. Could be either
 # a timeout in seconds or multiple signal/timeout pairs (like
 # "SIGKILL/180 SIGTERM/300")
-retry="${RAVEND_SIGTERM_TIMEOUT}"
+retry="${CAPSD_SIGTERM_TIMEOUT}"
 
 depend() {
 	need localmount net
@@ -50,29 +50,29 @@ start_pre() {
 	checkpath \
 	-d \
 	--mode 0750 \
-	--owner "${RAVEND_USER}:${RAVEND_GROUP}" \
-	"${RAVEND_DATADIR}"
+	--owner "${CAPSD_USER}:${CAPSD_GROUP}" \
+	"${CAPSD_DATADIR}"
 
 	checkpath \
 	-d \
 	--mode 0755 \
-	--owner "${RAVEND_USER}:${RAVEND_GROUP}" \
-	"${RAVEND_PIDDIR}"
+	--owner "${CAPSD_USER}:${CAPSD_GROUP}" \
+	"${CAPSD_PIDDIR}"
 
 	checkpath -f \
-	-o ${RAVEND_USER}:${RAVEND_GROUP} \
+	-o ${CAPSD_USER}:${CAPSD_GROUP} \
 	-m 0660 \
-	${RAVEND_CONFIGFILE}
+	${CAPSD_CONFIGFILE}
 
 	checkconfig || return 1
 }
 
 checkconfig()
 {
-	if ! grep -qs '^rpcpassword=' "${RAVEND_CONFIGFILE}" ; then
+	if ! grep -qs '^rpcpassword=' "${CAPSD_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run ravend."
-		eerror "The setting must appear in ${RAVEND_CONFIGFILE}"
+		eerror "ERROR: You must set a secure rpcpassword to run capsd."
+		eerror "The setting must appear in ${CAPSD_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
 		eerror "and must not be the same as the rpcuser setting."
@@ -84,7 +84,7 @@ checkconfig()
 		eerror "It is recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Raven Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Caps Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

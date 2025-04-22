@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ravencoin Core
+Comment=Connect to the Caps P2P Network
+Comment[de]=Verbinde mit dem Caps peer-to-peer Netzwerk
+Comment[fr]=Caps, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Caps, eşten eşe kriptografik sanal para birimi
+Exec=caps-qt %u
+Terminal=false
+Type=Application
+Icon=caps128
+MimeType=x-scheme-handler/caps;
+Categories=Office;Finance;

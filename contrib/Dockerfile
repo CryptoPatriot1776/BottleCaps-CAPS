@@ -31,33 +31,33 @@ RUN apt-get update && \
 	apt-get clean
 
 #Copy source dir
-COPY . /home/raven/build/Ravencoin/
-WORKDIR /home/raven/build/Ravencoin
+COPY . /home/caps/build/Ravencoin/
+WORKDIR /home/caps/build/Ravencoin
 
 #build db4 from source
-WORKDIR /home/raven/build/Ravencoin/contrib
+WORKDIR /home/caps/build/Ravencoin/contrib
 RUN ./install_db4.sh ../../
 
-# build Ravencore
-WORKDIR /home/raven/build/Ravencoin
-RUN ./autogen.sh && ./configure --disable-tests BDB_LIBS="-L/home/raven/build/db4/lib -ldb_cxx-4.8" BDB_CFLAGS="-I/home/raven/build/db4/include" --with-gui=no  && make -j4
+# build Capscore
+WORKDIR /home/caps/build/Ravencoin
+RUN ./autogen.sh && ./configure --disable-tests BDB_LIBS="-L/home/caps/build/db4/lib -ldb_cxx-4.8" BDB_CFLAGS="-I/home/caps/build/db4/include" --with-gui=no  && make -j4
 
 FROM base AS final
 
 #Add our service account user
-RUN useradd -ms /bin/bash raven && \
-	mkdir /var/lib/raven && \
-	chown raven:raven /var/lib/raven && \
-	ln -s /var/lib/raven /home/raven/.raven && \
-	chown -h raven:raven /home/raven/.raven
+RUN useradd -ms /bin/bash caps && \
+	mkdir /var/lib/caps && \
+	chown caps:caps /var/lib/caps && \
+	ln -s /var/lib/caps /home/caps/.caps && \
+	chown -h caps:caps /home/caps/.caps
 
-VOLUME /var/lib/raven
+VOLUME /var/lib/caps
 
 #Copy the compiled binaries from the build
-COPY --from=build /home/raven/build/Ravencoin/src/ravend /usr/local/bin/ravend
-COPY --from=build /home/raven/build/Ravencoin/src/raven-cli /usr/local/bin/raven-cli
+COPY --from=build /home/caps/build/Ravencoin/src/capsd /usr/local/bin/capsd
+COPY --from=build /home/caps/build/Ravencoin/src/caps-cli /usr/local/bin/caps-cli
 
-WORKDIR /home/raven
-USER raven
+WORKDIR /home/caps
+USER caps
 
-CMD /usr/local/bin/ravend -datadir=/var/lib/raven -printtoconsole -onlynet=ipv4
+CMD /usr/local/bin/capsd -datadir=/var/lib/caps -printtoconsole -onlynet=ipv4

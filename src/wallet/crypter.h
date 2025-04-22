@@ -1,10 +1,11 @@
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2017-2020 The Raven Core developers
+// Copyright (c) 2017-2020 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef RAVEN_WALLET_CRYPTER_H
-#define RAVEN_WALLET_CRYPTER_H
+#ifndef CAPS_WALLET_CRYPTER_H
+#define CAPS_WALLET_CRYPTER_H
 
 #include "keystore.h"
 #include "serialize.h"
@@ -205,4 +206,4 @@ public:
     boost::signals2::signal<void (CCryptoKeyStore* wallet)> NotifyStatusChanged;
 };
 
-#endif // RAVEN_WALLET_CRYPTER_H
+#endif // CAPS_WALLET_CRYPTER_H

@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  ravend The raven core server.
+#  capsd The caps core server.
 #
 #
 # chkconfig: 345 80 20
-# description: ravend
-# processname: ravend
+# description: capsd
+# processname: capsd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/ravend, see below
-if [ -f /etc/sysconfig/ravend ]; then
-        . /etc/sysconfig/ravend
+# you can override defaults in /etc/sysconfig/capsd, see below
+if [ -f /etc/sysconfig/capsd ]; then
+        . /etc/sysconfig/capsd
 fi
 
 RETVAL=0
 
-prog=ravend
-# you can override the lockfile via RAVEND_LOCKFILE in /etc/sysconfig/ravend
-lockfile=${RAVEND_LOCKFILE-/var/lock/subsys/ravend}
+prog=capsd
+# you can override the lockfile via CAPSD_LOCKFILE in /etc/sysconfig/capsd
+lockfile=${CAPSD_LOCKFILE-/var/lock/subsys/capsd}
 
-# ravend defaults to /usr/bin/ravend, override with RAVEND_BIN
-ravend=${RAVEND_BIN-/usr/bin/ravend}
+# capsd defaults to /usr/bin/capsd, override with CAPSD_BIN
+capsd=${CAPSD_BIN-/usr/bin/capsd}
 
-# ravend opts default to -disablewallet, override with RAVEND_OPTS
-ravend_opts=${RAVEND_OPTS--disablewallet}
+# capsd opts default to -disablewallet, override with CAPSD_OPTS
+capsd_opts=${CAPSD_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $ravend $ravend_opts
+    daemon $DAEMONOPTS $capsd $capsd_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

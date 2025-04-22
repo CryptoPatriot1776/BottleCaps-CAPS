@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2017-2019 The Raven Core developers
+// Copyright (c) 2017-2019 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,11 +9,11 @@
  * Server/client environment: argument handling, config file parsing,
  * logging, thread wrappers, startup time
  */
-#ifndef RAVEN_UTIL_H
-#define RAVEN_UTIL_H
+#ifndef CAPS_UTIL_H
+#define CAPS_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/raven-config.h"
+#include "config/caps-config.h"
 #endif
 
 #include "compat.h"
@@ -54,8 +55,8 @@ extern bool fLogIPs;
 extern std::atomic<bool> fReopenDebugLog;
 extern CTranslationInterface translationInterface;
 
-extern const char *const RAVEN_CONF_FILENAME;
-extern const char *const RAVEN_PID_FILENAME;
+extern const char *const CAPS_CONF_FILENAME;
+extern const char *const CAPS_PID_FILENAME;
 
 extern std::atomic<uint32_t> logCategories;
 
@@ -333,7 +334,7 @@ void RenameThread(const char *name);
 template<typename Callable>
 void TraceThread(const char *name, Callable func)
 {
-    std::string s = strprintf("raven-%s", name);
+    std::string s = strprintf("caps-%s", name);
     RenameThread(s.c_str());
     try
     {
@@ -362,4 +363,4 @@ std::string CopyrightHolders(const std::string &strPrefix);
 
 void SetThreadPriority(int nPriority);
 
-#endif // RAVEN_UTIL_H
+#endif // CAPS_UTIL_H

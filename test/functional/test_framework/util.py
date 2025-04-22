@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (c) 2014-2016 The Bitcoin Core developers
-# Copyright (c) 2017-2020 The Raven Core developers
+# Copyright (c) 2017-2020 The Ravencoin Core developers
+// Copyright (c) 2025 The Bottlecaps Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -259,7 +260,7 @@ def hash256(byte_str):
     return sha256d.digest()[::-1]
 
 
-x16r_hash_cmd = os.path.dirname(os.path.realpath(__file__)) + "/../../../src/test/test_raven_hash"
+x16r_hash_cmd = os.path.dirname(os.path.realpath(__file__)) + "/../../../src/test/test_caps_hash"
 
 
 def x16_hash_block(hex_str, algorithm="2"):
@@ -411,7 +412,7 @@ def initialize_data_dir(dirname, n):
     datadir = os.path.join(dirname, "node" + str(n))
     if not os.path.isdir(datadir):
         os.makedirs(datadir)
-    with open(os.path.join(datadir, "raven.conf"), 'w', encoding='utf8') as f:
+    with open(os.path.join(datadir, "caps.conf"), 'w', encoding='utf8') as f:
         f.write("regtest=1\n")
         f.write("acceptnonstdtxn=1\n")
         f.write("port=" + str(p2p_port(n)) + "\n")
@@ -427,8 +428,8 @@ def get_datadir_path(dirname, n):
 def get_auth_cookie(datadir):
     user = None
     password = None
-    if os.path.isfile(os.path.join(datadir, "raven.conf")):
-        with open(os.path.join(datadir, "raven.conf"), 'r', encoding='utf8') as f:
+    if os.path.isfile(os.path.join(datadir, "caps.conf")):
+        with open(os.path.join(datadir, "caps.conf"), 'r', encoding='utf8') as f:
             for line in f:
                 if line.startswith("rpcuser="):
                     assert user is None  # Ensure that there is only one rpcuser line
